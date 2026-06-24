@@ -58,7 +58,7 @@ DM = \frac{\epsilon_0 m_e c \nu}{e^2} \approx 62.45\text{ pc/cm}^3
 To execute our data-collection pipelines and reproduce these figures on your local machine, run the following commands in your terminal:
 ```bash
 # Clone this repository
-git clone https://github.com/johanneskemp/HFT_LIGO_Coherence.git
+git clone [https://github.com/johanneskemp/HFT_LIGO_Coherence.git](https://github.com/johanneskemp/HFT_LIGO_Coherence.git)
 cd HFT_LIGO_Coherence
 
 # Install standard scientific Python dependencies
