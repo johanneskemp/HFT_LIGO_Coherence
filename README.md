@@ -19,6 +19,7 @@ By correlating raw strain data across the international baseline including the E
 <p align="left">
 <img src="hft_coherence_global_v1.png" width="700" alt="Global LIGO-Virgo Coherence">
 </p
+
   
 ### 2. Temporal Stability Validation (H1-L1 over 2 Hours)
 
