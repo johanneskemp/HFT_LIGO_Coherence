@@ -18,7 +18,6 @@ Harmonic Field Theory models the quantum vacuum as a non-linear, elastic transmi
 By correlating raw strain data across the international baseline including the European Virgo (V1) detector in Italy, we rule out all localized North American terrestrial noise and power-grid interference. Because the signal remains strongly correlated when crossing from a 60 Hz grid (US) to a 50 Hz grid (Europe), it represents an intrinsic property of the global vacuum medium.
 <p align="left">
 <img src="hft_coherence_global_v1.png" width="700" alt="Global LIGO-Virgo Coherence">
-</p>
 ### 2. Temporal Stability Validation (H1-L1 over 2 Hours)
 *Script: ligo_coherence_analysis.py*
 Integrating the Hanford-Livingston cross-coherence over a continuous 2-hour window demonstrates that the 108.45 Hz phase-slip resonance peak is a permanent, stationary standing-wave state of the vacuum medium rather than a transient environmental glitch.
