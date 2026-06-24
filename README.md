@@ -4,11 +4,11 @@ This repository hosts the actual Python data-collection and signal processing sc
 ## Executive Summary of Derived Constants
 Through strict application of non-linear vacuum boundary conditions, HFT derives the fundamental dimensionless physical constants directly from geometric relationships.
 ### Proton-to-Electron Mass Ratio
-The proton-to-electron mass-scaling ratio (R) is derived directly from first-principles toroidal geometry:
-Where the static spherical-to-toroidal volumetric intersection coefficient (\Phi) is defined as:
+The proton-to-electron mass-scaling ratio R is derived directly from first-principles toroidal geometry:
+Where the static spherical-to-toroidal volumetric intersection coefficient \Phi is defined as:
 *(Achieves 99.96% empirical accuracy against CODATA values).*
 ### Cosmological Constant Energy Density
-The physical vacuum energy density (\rho) is derived by treating cosmic expansion as a global thermodynamic constraint:
+The physical vacuum energy density \rho is derived by treating cosmic expansion as a global thermodynamic constraint:
 Where \nu represents the fixed Caesium-133 hyperfine transition frequency temporal anchor (9,192,631,770\text{ Hz}), \alpha is the fine-structure constant, and m_t is the top quark mass anchor.
 *(Resolves the 120-order-of-magnitude "Vacuum Catastrophe" by treating the expanding universe as a global thermodynamic constraint rather than a zero-point energy accumulation).*
 ## The Observation Triad
