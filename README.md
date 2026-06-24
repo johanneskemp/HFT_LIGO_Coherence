@@ -41,9 +41,11 @@ Using Lomb-Scargle periodogram analysis on the 15-year pulsar timing residuals, 
 *Script: chime_frb_dispersion.py*
 Our CHIME pipeline downloads raw Fast Radio Burst metrics, subtracts the Milky Way interstellar plasma dispersion using the standard NE2001/YMW16 profiles, and evaluates the population scatter. As redshift approaches zero (z \to 0), we reveal a rigid, isotropic vacuum dispersion floor of exactly 62.45 pc/cm³ (DM).
 This cosmological parameter is derived entirely from first principles using the geocentric phase-slip coordinate (\nu = 108.45\text{ Hz}) found in our LIGO analysis:
+
 <p align="left">
 <img src="hft_frb_dispersion.png" width="700" alt="CHIME FRB Dispersion Scatter Plot">
 </p>
+
 ## Quick Start & Installation
 To execute our data-collection pipelines and reproduce these figures on your local machine, run the following commands in your terminal:
 ```bash
