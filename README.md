@@ -32,9 +32,11 @@ Integrating the Hanford-Livingston cross-coherence over a continuous 2-hour wind
 ### 3. NANOGrav Pulsar Timing Residuals Secular Drift
 *Script: nanograv_drift_spectrum.py*
 Using Lomb-Scargle periodogram analysis on the 15-year pulsar timing residuals, we isolate an isotropic, ultra-low frequency secular phase-drift concentrated precisely near 1.05 × 10⁻⁸ Hz (a cycle of approximately 3.02 years), revealing the thermodynamic expansion baseline of the vacuum carrier wave.
+
 <p align="left">
 <img src="hft_nanograv_verification.png" width="700" alt="NANOGrav Spectral Power Peak">
 </p>
+
 ### 4. CHIME FRB Dispersion Measure Y-Intercept Offset
 *Script: chime_frb_dispersion.py*
 Our CHIME pipeline downloads raw Fast Radio Burst metrics, subtracts the Milky Way interstellar plasma dispersion using the standard NE2001/YMW16 profiles, and evaluates the population scatter. As redshift approaches zero (z \to 0), we reveal a rigid, isotropic vacuum dispersion floor of exactly 62.45 pc/cm³ (DM).
