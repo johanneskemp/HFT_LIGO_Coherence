@@ -20,6 +20,7 @@ By correlating raw strain data across the international baseline including the E
 ### 2. Temporal Stability Validation (H1-L1 over 2 Hours)
 *Script: ligo_coherence_analysis.py*
 Integrating the Hanford-Livingston cross-coherence over a continuous 2-hour window demonstrates that the 108.45 Hz phase-slip resonance peak is a permanent, stationary standing-wave state of the vacuum medium rather than a transient environmental glitch.
+
 <img src="hft_coherence_stability_2hr.png" width="700" alt="LIGO 2-Hour Coherence Stability">
 ### 3. NANOGrav Pulsar Timing Residuals Secular Drift
 *Script: nanograv_drift_spectrum.py*
