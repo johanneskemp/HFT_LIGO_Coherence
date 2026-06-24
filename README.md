@@ -45,7 +45,3 @@ python ligo_coherence_analysis.py
 python chime_frb_dispersion.py
 python nanograv_drift_spectrum.py
 
-```
-## Reference Publications
- * **Primary Preprint:** HFT PR Manuscript draft.pdf (Attached to correspondence)
- * **Technical Supplemental Material:** HFT Suppl.pdf (Attached to correspondence)
