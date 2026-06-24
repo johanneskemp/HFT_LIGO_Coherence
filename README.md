@@ -3,10 +3,13 @@ Welcome to the official empirical verification repository for **Harmonic Field T
 This repository hosts the actual Python data-collection and signal processing scripts used to extract vacuum phase-slip signatures, cosmic clock drifts, and non-linear polarization scales from raw public observational databases.
 ## Executive Summary of Derived Constants
 Through strict application of non-linear vacuum boundary conditions, HFT derives the fundamental dimensionless physical constants directly from geometric relationships.
-### Proton-to-Electron Mass Ratio (R_{pe})
-Where the static spherical-to-toroidal volumetric intersection coefficient is defined as:
-*(Achieves 99.96\% empirical accuracy against CODATA values).*
-### Cosmological Constant Energy Density (\rho_{\text{vac}})
+### Proton-to-Electron Mass Ratio
+The proton-to-electron mass-scaling ratio (R) is derived directly from first-principles toroidal geometry:
+Where the static spherical-to-toroidal volumetric intersection coefficient (\Phi) is defined as:
+*(Achieves 99.96% empirical accuracy against CODATA values).*
+### Cosmological Constant Energy Density
+The physical vacuum energy density (\rho) is derived by treating cosmic expansion as a global thermodynamic constraint:
+Where \nu represents the fixed Caesium-133 hyperfine transition frequency temporal anchor (9,192,631,770\text{ Hz}), \alpha is the fine-structure constant, and m_t is the top quark mass anchor.
 *(Resolves the 120-order-of-magnitude "Vacuum Catastrophe" by treating the expanding universe as a global thermodynamic constraint rather than a zero-point energy accumulation).*
 ## The Observation Triad
 Harmonic Field Theory models the quantum vacuum as a non-linear, elastic transmission medium. Below are the empirical pillars mapped by our data pipelines, bridging planetary, galactic, and cosmological scales.
@@ -17,15 +20,15 @@ By correlating raw strain data across the international baseline including the E
 ### 2. Temporal Stability Validation (H1-L1 over 2 Hours)
 *Script: ligo_coherence_analysis.py*
 Integrating the Hanford-Livingston cross-coherence over a continuous 2-hour window demonstrates that the 108.45\text{ Hz} phase-slip resonance peak is a permanent, stationary standing-wave state of the vacuum medium rather than a transient environmental glitch.
-<img src="hft_coherence_stability_2hr.png" width="700" alt="LIGO 2-Hour Coherence Stability">
+<img src="hft_coherence_stability_2hr%20.png" width="700" alt="LIGO 2-Hour Coherence Stability">
 ### 3. NANOGrav Pulsar Timing Residuals Secular Drift
 *Script: nanograv_drift_spectrum.py*
 Using Lomb-Scargle periodogram analysis on the 15-year pulsar timing residuals, we isolate an isotropic, ultra-low frequency secular phase-drift concentrated precisely near 1.05 \times 10^{-8}\text{ Hz} (a cycle of approximately 3.02\text{ years}), revealing the thermodynamic expansion baseline of the vacuum carrier wave.
 <img src="hft_nanograv_verification.png" width="700" alt="NANOGrav Spectral Power Peak">
 ### 4. CHIME FRB Dispersion Measure Y-Intercept Offset
 *Script: chime_frb_dispersion.py*
-Our CHIME pipeline downloads raw Fast Radio Burst metrics, subtracts the Milky Way interstellar plasma dispersion using the standard NE2001/YMW16 profiles, and evaluates the population scatter. As redshift approaches zero (z \to 0), we reveal a rigid, isotropic vacuum dispersion floor of exactly DM_0 \approx 62.45\text{ pc/cm}^3.
-This cosmological parameter is derived entirely from first principles using the geocentric phase-slip coordinate (\nu_{\text{slip}} = 108.45\text{ Hz}) found in our LIGO analysis:
+Our CHIME pipeline downloads raw Fast Radio Burst metrics, subtracts the Milky Way interstellar plasma dispersion using the standard NE2001/YMW16 profiles, and evaluates the population scatter. As redshift approaches zero (z \to 0), we reveal a rigid, isotropic vacuum dispersion floor of exactly DM \approx 62.45\text{ pc/cm}^3.
+This cosmological parameter is derived entirely from first principles using the geocentric phase-slip coordinate (\nu = 108.45\text{ Hz}) found in our LIGO analysis:
 <img src="hft_frb_dispersion.png" width="700" alt="CHIME FRB Dispersion Scatter Plot">
 ## Quick Start & Installation
 To execute our data-collection pipelines and reproduce these figures on your local machine, run the following commands in your terminal:
