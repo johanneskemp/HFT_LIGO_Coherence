@@ -13,11 +13,11 @@ Harmonic Field Theory models the quantum vacuum as a non-linear, elastic transmi
 ### 1. LIGO Global Cross-Coherence Peak (H1-L1-V1)
 *Script: ligo_coherence_analysis.py*
 By correlating raw strain data across the international baseline including the European Virgo (V1) detector in Italy, we rule out all localized North American terrestrial noise and power-grid interference. Because the signal remains strongly correlated when crossing from a 60 Hz grid (US) to a 50 Hz grid (Europe), it represents an intrinsic property of the global vacuum medium.
-<img src="hft_coherence_verification1.png" width="700" alt="Global LIGO-Virgo Coherence">
+<img src="hft_coherence_global_v1.png" width="700" alt="Global LIGO-Virgo Coherence">
 ### 2. Temporal Stability Validation (H1-L1 over 2 Hours)
 *Script: ligo_coherence_analysis.py*
 Integrating the Hanford-Livingston cross-coherence over a continuous 2-hour window demonstrates that the 108.45\text{ Hz} phase-slip resonance peak is a permanent, stationary standing-wave state of the vacuum medium rather than a transient environmental glitch.
-<img src="img/hft_coherence_verification.png" width="700" alt="LIGO 2-Hour Coherence Stability">
+<img src="hft_coherence_stability_2hr%20.png" width="700" alt="LIGO 2-Hour Coherence Stability">
 ### 3. NANOGrav Pulsar Timing Residuals Secular Drift
 *Script: nanograv_drift_spectrum.py*
 Using Lomb-Scargle periodogram analysis on the 15-year pulsar timing residuals, we isolate an isotropic, ultra-low frequency secular phase-drift concentrated precisely near 1.05 \times 10^{-8}\text{ Hz} (a cycle of approximately 3.02\text{ years}), revealing the thermodynamic expansion baseline of the vacuum carrier wave.
