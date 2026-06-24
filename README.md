@@ -13,11 +13,11 @@ Harmonic Field Theory models the quantum vacuum as a non-linear, elastic transmi
 ### 1. LIGO Global Cross-Coherence Peak (H1-L1-V1)
 *Script: ligo_coherence_analysis.py*
 By correlating raw strain data across the international baseline including the European Virgo (V1) detector in Italy, we rule out all localized North American terrestrial noise and power-grid interference. Because the signal remains strongly correlated when crossing from a 60 Hz grid (US) to a 50 Hz grid (Europe), it represents an intrinsic property of the global vacuum medium.
-<img src="hft_coherence_verification1.jpg" width="700" alt="Global LIGO-Virgo Coherence">
+<img src="hft_coherence_verification1.png" width="700" alt="Global LIGO-Virgo Coherence">
 ### 2. Temporal Stability Validation (H1-L1 over 2 Hours)
 *Script: ligo_coherence_analysis.py*
 Integrating the Hanford-Livingston cross-coherence over a continuous 2-hour window demonstrates that the 108.45\text{ Hz} phase-slip resonance peak is a permanent, stationary standing-wave state of the vacuum medium rather than a transient environmental glitch.
-<img src="hft_coherence_verification.jpg" width="700" alt="LIGO 2-Hour Coherence Stability">
+<img src="hft_coherence_verification.png" width="700" alt="LIGO 2-Hour Coherence Stability">
 ### 3. NANOGrav Pulsar Timing Residuals Secular Drift
 *Script: nanograv_drift_spectrum.py*
 Using Lomb-Scargle periodogram analysis on the 15-year pulsar timing residuals, we isolate an isotropic, ultra-low frequency secular phase-drift concentrated precisely near 1.05 \times 10^{-8}\text{ Hz} (a cycle of approximately 3.02\text{ years}), revealing the thermodynamic expansion baseline of the vacuum carrier wave.
@@ -26,7 +26,7 @@ Using Lomb-Scargle periodogram analysis on the 15-year pulsar timing residuals, 
 *Script: chime_frb_dispersion.py*
 Our CHIME pipeline downloads raw Fast Radio Burst metrics, subtracts the Milky Way interstellar plasma dispersion using the standard NE2001/YMW16 profiles, and evaluates the population scatter. As redshift approaches zero (z \to 0), we reveal a rigid, isotropic vacuum dispersion floor of exactly DM_0 \approx 62.45\text{ pc/cm}^3.
 This cosmological parameter is derived entirely from first principles using the geocentric phase-slip coordinate (\nu_{\text{slip}} = 108.45\text{ Hz}) found in our LIGO analysis:
-<img src="hft_frb_dispersion.jpg" width="700" alt="CHIME FRB Dispersion Scatter Plot">
+<img src="hft_frb_dispersion.png" width="700" alt="CHIME FRB Dispersion Scatter Plot">
 ## Quick Start & Installation
 To execute our data-collection pipelines and reproduce these figures on your local machine, run the following commands in your terminal:
 ```bash
